@@ -1,5 +1,3 @@
-Sure, here's a template for a README file for the Fruit AI project on GitHub:
-
 ```markdown
 # Fruit AI
 
@@ -99,5 +97,3 @@ For any questions or inquiries, please contact [Pridhi Gupta](mailto:pridhi@exam
 Happy fruit classifying!
 
 ```
-
-Feel free to adjust the sections as needed based on the actual content and functionality of your project.
