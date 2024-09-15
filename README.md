@@ -92,6 +92,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or inquiries, please contact [Pridhi Gupta](mailto:pridhi@example.com).
 
----
-
 Happy fruit classifying!
