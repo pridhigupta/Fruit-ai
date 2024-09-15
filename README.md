@@ -1,5 +1,5 @@
-```markdown
-# Fruit AI
+
+## Fruit AI
 
 Fruit AI is an advanced machine learning project designed to classify and identify different types of fruits from images. Utilizing state-of-the-art deep learning models, this project demonstrates how AI can be applied to real-world scenarios such as image classification and object recognition.
 
@@ -95,5 +95,3 @@ For any questions or inquiries, please contact [Pridhi Gupta](mailto:pridhi@exam
 ---
 
 Happy fruit classifying!
-
-```
