@@ -1,0 +1,92 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: white;
+    margin: 0;
+}
+
+.tagline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    grid-template-rows: repeat(2, 120px);
+    gap: 20px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item.chat {
+    background-color: #ffcc80;
+    color: #d91d7e;
+}
+
+.grid-item.translate {
+    background-color: #a6f4e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item.faqs {
+    background-color: #dbb3ff;
+    color: #2a2f7e;
+}
+
+.grid-item.about {
+    background-color: #ffb3c1;
+    color: #d91d7e;
+}
+
+.grid-item.translate .icon {
+    width: 60px;
+    height: 60px;
+}
+
+.dots-container {
+    margin-top: 40px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: white;
+}

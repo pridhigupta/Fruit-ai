@@ -1,0 +1,135 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+}
+
+.chat-header img.avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-info {
+    text-align: left;
+    margin: 0;
+}
+
+.profile-info h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.profile-info .status {
+    font-size: 14px;
+    color: white;
+    background-color: #4CAF50;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.chat-body {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.message {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.message p {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.message.user p {
+    background-color: #d1ffd6;
+    align-self: flex-end;
+}
+
+.message.bot p {
+    background-color: #e0e0e0;
+    align-self: flex-start;
+}
+
+.message-time {
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.chat-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.send-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-left: 10px;
+}
+
+.send-button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+}
+
+.send-button p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .chatbot-container {
+        height: 93vh;
+    }
+}

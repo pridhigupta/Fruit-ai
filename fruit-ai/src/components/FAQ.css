@@ -1,0 +1,99 @@
+.faq-container {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #B2FEFA, #0ED2F7);
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.faq-content {
+    flex: 1;
+    text-align: left;
+}
+
+.faq-item h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.faq-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.faq-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-form input {
+    padding: 12px;
+    margin: 10px 0;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.faq-form button {
+    padding: 12px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-form button:hover {
+    background-color: #45a049;
+}
+
+button {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}

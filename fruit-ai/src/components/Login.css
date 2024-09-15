@@ -1,0 +1,117 @@
+.login-container {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-options a {
+    margin: 0 10px;
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.login-options a.active {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.login-form {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.show-password {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    cursor: pointer;
+}
+
+.password-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.password-options input {
+    margin-right: 5px;
+}
+
+.password-options a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.facebook { background-color: #3b5998; color: white; }
+.instagram { background-color: #e1306c; color: white; }
+.pinterest { background-color: #bd081c; color: white; }
+.linkedin { background-color: #0077b5; color: white; }
+
+.fingerprint-login {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #007BFF;
+    cursor: pointer;
+}
